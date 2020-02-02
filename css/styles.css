@@ -1,0 +1,176 @@
+/*
+COLOR PALETTE
+https://coolors.co/131515-2b2c28-339989-7de2d1-fffafb
+#131515 - almost white
+#343434 - dark gray - almost black
+#2F3061 - blue dark
+#FFE66D - yellow
+#A1C6D7 - blue light
+*/
+
+
+/* Global styles
+------------------------------------*/
+html {
+  box-sizing: border-box;
+}
+*, *:before, *:after {
+  box-sizing: inherit;
+}
+
+body {
+  color: #343434;
+  margin: 0;
+  padding: 0;
+  font-family: 'Montserrat', sans-serif;
+  font-size: 15px;
+  line-height: 1.5;
+}
+
+margin_content{
+    margin: auto auto;
+}
+
+img {
+  width: 300px;
+  float: left;
+}
+a {
+  color: #FFE66D;
+  font-weight: bold;
+}
+a:hover {
+  text-decoration: none;
+}
+h1 {
+  font-size: 100px;
+  line-height: 1;
+}
+h2 {
+  font-size: 45px;
+    color:black;
+}
+section {
+    max-width: 1000px;
+    margin: auto;
+}
+h1, h2 {
+  font-family: 'Audiowide', cursive;
+  font-weight: 400;
+  margin: 0;
+}
+h3 {
+  margin-bottom: 0;
+}
+.item-details h3 + p {
+  font-style: italic;
+}
+.item-details h3 ~ p {
+  margin: 0;
+}
+.divider > section {
+  border-bottom: 1px solid #343434;
+  padding: 25px 0;
+}
+.divider > section:last-of-type {
+  border-bottom: none;
+}
+p{
+    width: 65%;
+    float: right;
+}
+
+
+/* Profile
+------------------------------------*/
+header {
+  background: #339989;
+  color: #F7FFF7;
+  text-align: center;
+}
+
+header h2 {
+    color: #F7FFF7;
+}
+
+footer h2 {
+    color: #F7FFF7;
+}
+
+/* Projects
+------------------------------------*/
+.projects {
+  background: #F7FFF7;
+
+}
+.projects a {
+  color: #2F3061;
+}
+.projects .btn {
+  color: #F7FFF7;
+  background: #2F3061;
+  text-decoration: none;
+  padding: 8px;
+  border-radius: 4px;
+  display: inline-block;
+}
+.projects .btn:hover {
+  background: rgba(47, 48, 97, 80%);
+}
+.project-item {
+  overflow: hidden;
+    margin: auto;
+    display:
+   
+}
+.project-item img {
+  float: left;
+  margin-right: 40px;
+}
+.project-item h3 {
+  margin-bottom: 10px;
+}
+.project-item ul {
+    list-style-type:square;
+}
+.project-item li{
+    padding-bottom: 20px;
+}
+
+/* Education
+------------------------------------*/
+.education {
+  background: #F7FFF7;
+  padding-bottom: 50px;
+}
+.education p {
+  width: 60%;
+  float: left;
+    
+}
+
+.education img {
+    width: 100px;
+    padding-top: 5px;
+}
+
+
+
+/* Contact Info
+------------------------------------*/
+footer {
+ margin-top: -15px;
+  background: #339989;
+  color: #FFFAFB;
+  text-align: center;
+}
+.contact-list {
+  list-style-type: none;
+  padding: 0;
+  display: flex;
+  justify-content: center;
+}
+.contact-list a {
+  padding: 15px;
+  display: inline-block;
+}
