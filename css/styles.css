@@ -1,11 +1,6 @@
 /*
 COLOR PALETTE
 https://coolors.co/131515-2b2c28-339989-7de2d1-fffafb
-#131515 - almost white
-#343434 - dark gray - almost black
-#2F3061 - blue dark
-#FFE66D - yellow
-#A1C6D7 - blue light
 */
 
 
@@ -17,7 +12,6 @@ html {
 *, *:before, *:after {
   box-sizing: inherit;
 }
-
 body {
   color: #343434;
   margin: 0;
@@ -26,11 +20,6 @@ body {
   font-size: 15px;
   line-height: 1.5;
 }
-
-margin_content{
-    margin: auto auto;
-}
-
 img {
   width: 300px;
   float: left;
@@ -57,15 +46,6 @@ section {
 h1, h2 {
   font-family: 'Audiowide', cursive;
   font-weight: 400;
-  margin: 0;
-}
-h3 {
-  margin-bottom: 0;
-}
-.item-details h3 + p {
-  font-style: italic;
-}
-.item-details h3 ~ p {
   margin: 0;
 }
 .divider > section {
@@ -101,8 +81,8 @@ footer h2 {
 ------------------------------------*/
 .projects {
   background: #F7FFF7;
-
 }
+/*
 .projects a {
   color: #2F3061;
 }
@@ -117,6 +97,7 @@ footer h2 {
 .projects .btn:hover {
   background: rgba(47, 48, 97, 80%);
 }
+*/
 .project-item {
   overflow: hidden;
     margin: auto;
@@ -128,12 +109,6 @@ footer h2 {
 .project-item h3 {
   margin-bottom: 10px;
 }
-.project-item ul {
-    list-style-type:square;
-}
-.project-item li{
-    padding-bottom: 20px;
-}
 
 /* Education
 ------------------------------------*/
@@ -144,15 +119,11 @@ footer h2 {
 .education p {
   width: 60%;
   float: left;
-    
 }
-
 .education img {
     width: 100px;
     padding-top: 5px;
 }
-
-
 
 /* Contact Info
 ------------------------------------*/
