@@ -14,6 +14,9 @@
       </list>
     </option>
   </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
   <component name="ProjectId" id="1X9lXG2viv59y1l81geqsNv2Dwn" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
@@ -24,6 +27,7 @@
     <property name="DefaultHtmlFileTemplate" value="HTML File" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../It_Works_Wear/it-works-wear" />
     <property name="settings.editor.selected.configurable" value="preferences.editor" />
   </component>
   <component name="SvnConfiguration">
@@ -37,6 +41,7 @@
       <option name="presentableId" value="Default" />
       <updated>1580466228955</updated>
       <workItem from="1580466230106" duration="4639000" />
+      <workItem from="1580782114049" duration="646000" />
     </task>
     <servers />
   </component>
@@ -44,6 +49,10 @@
     <option name="version" value="1" />
   </component>
   <component name="WindowStateProjectService">
+    <state x="457" y="417" key="FileChooserDialogImpl" timestamp="1580785345894">
+      <screen x="105" y="0" width="2455" height="1440" />
+    </state>
+    <state x="457" y="417" key="FileChooserDialogImpl/105.0.2455.1440@105.0.2455.1440" timestamp="1580785345894" />
     <state x="710" y="278" key="SettingsEditor" timestamp="1580468154483">
       <screen x="105" y="0" width="2455" height="1440" />
     </state>
